@@ -5,9 +5,20 @@
 }
 
 .container {
+  border: 1px solid red;
   width: 100%;
   height: 500px;
-  border: 1px solid red;
+}
+
+.main-content {
+  border: 1px solid blue;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12pt;
+  font-weight: 300;
+  font-family: "Arial", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
