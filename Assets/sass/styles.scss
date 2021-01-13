@@ -6,6 +6,25 @@ $zero:0;
     box-sizing: border-box;
 }
 
+//tags
+
+footer{
+    border:1px solid chocolate;
+   
+    width: 100%;
+    height:100px;
+
+    margin: {
+        top:20px;
+        bottom:20px
+    }
+    display: flex;
+    place-items: center;
+    text-align: center;
+    float: right;
+}
+
+//ids e classes a baixo
 .container{
     border: 1px solid red;
     width: 100%;
@@ -28,5 +47,22 @@ $zero:0;
         size: 12pt;
         weight:300;
         family:'Arial', sans-serif;
+    }
+}
+
+.left-content{
+    width: 48%;
+    height:500px;
+    border: 1px solid black;
+}
+
+.rigth-content{
+    width: 48%;
+    height: 500px;
+    border: 1px solid green;
+    
+    margin: {
+        top:-37.1%;
+        left: 52%;
     }
 }
