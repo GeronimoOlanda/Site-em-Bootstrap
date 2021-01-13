@@ -9,6 +9,10 @@ $zero:0;
 //tags
 
 footer{
+    display: flex;
+    place-items: center;
+    text-align: center;
+    
     border:1px solid chocolate;
    
     width: 100%;
@@ -18,10 +22,7 @@ footer{
         top:20px;
         bottom:20px
     }
-    display: flex;
-    place-items: center;
-    text-align: center;
-   align-content: space-around;
+   
 }
 
 //ids e classes a baixo

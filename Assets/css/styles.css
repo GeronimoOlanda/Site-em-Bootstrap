@@ -5,15 +5,14 @@
 }
 
 footer {
+  display: flex;
+  place-items: center;
+  text-align: center;
   border: 1px solid chocolate;
   width: 100%;
   height: 100px;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
-  place-items: center;
-  text-align: center;
-  align-content: space-around;
 }
 
 .container {
