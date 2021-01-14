@@ -37,6 +37,11 @@ footer {
   height: 500px;
 }
 
+.logo {
+  width: 20%;
+  margin-top: 1%;
+}
+
 .main-content {
   border: 1px solid blue;
   width: 100%;
