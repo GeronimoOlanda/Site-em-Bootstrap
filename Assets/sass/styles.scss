@@ -1,5 +1,7 @@
 $zero:0;
 $black:rgb(0, 0, 0);
+$font-family: 'Arial', sans-serif;
+
 *{
     padding: $zero;
     margin: $zero;
@@ -25,7 +27,7 @@ a{
 
     font: {
         size:1.1em;
-        family:'Arial', sans-serif;
+        family:$font-family;
         
     }
 }
@@ -54,7 +56,16 @@ footer{
     
     margin: {
         top:1%;
+        left:1%;
     }
+
+    font: {
+        size: 16pt;
+        weight:bolder;
+        
+    }
+  
+
 }
 
 .main-content{
@@ -70,7 +81,7 @@ footer{
     font: {
         size: 12pt;
         weight:300;
-        family:'Arial', sans-serif;
+        family: $font-family;
     }
 }
 
