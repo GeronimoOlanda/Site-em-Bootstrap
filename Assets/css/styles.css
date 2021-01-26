@@ -7,4 +7,9 @@ section .paragrafo-1 {
   margin-right: 10%;
 }
 
+footer {
+  text-align: center;
+  border: 1px solid black;
+}
+
 /*# sourceMappingURL=styles.css.map */
