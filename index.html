@@ -1,68 +1,94 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio online">
-    <meta name="keywords" content="portfolio, html, css, sass, javascript, php, mysql">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pagina Inicial</title>
-    <!--icon page-->
-    <link rel="shortcut icon" href="./Assets/img/icon.svg" type="image/svg">
-    <!--css-->
-    <link rel="stylesheet" type="text/css" href="./Assets/css/styles.css">
+  <!-- css-->
+  <link rel="stylesheet" href="./Assets/css/styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <div class="logo">
-                <a href="./index.html">
-                    <p>GERONIMO OLANDA</p>
-                </a>
-            </div>
-            <!--header-->
-            <header>
-              
-                <!--barra de navegação-->
-                <nav>
-                    <ul>
-                        <li><a class="link" href="./Assets/src/contatos.html">Contatos</a></li>
-                        <li><a class="link" href="./Assets/src/artigos.html">Artigos</a></li>
-                        <li><a class="link" href="./Assets/src/portfolio.html">Portfolio</a></li>
-                        <li><a class="link" href="./index.html">Inicio</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-        
-        <!--conteudo principal-->
-        <main class="main-content">
-            bbb
-        </main>
-
-        <!--Meus Projetos Recenter-->
-        <div class="left-right-content">
-            <section class="left-content">
-                ccc
-            </section>
-
-            <!--Meus Artigos-->
-            <section class="rigth-content">
-                ddd
-            </section>
-        </div>
-
-        <!--rodapé contendo informações-->
-        <footer>
-            <p><small>facebook | instagram | twitter | Linkedln | Youtube</small></p>
-        </footer>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">GERONIMO OLANDA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Pagina Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="pesquisar" aria-label="pesquisar">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
+  <!-- -->
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Assets/img/imagem1.jpg" class="d-block w-100" alt="...">
 
-    <!-- scripts -->
-    <script src="./Assets/js/scripts.js"></script>
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/img/imagem2.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/img/imagem3.jpg" class="d-block w-100" alt="...">
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </main>
+  <section>
+    <p class="paragrafo-1">
+      Um texto é, maioritariamente, um conjunto organizado de palavras, que formam frases, que formam parágrafos, que
+      formam o próprio texto. Essa unidade estruturada apresenta um sentido completo e tem um objetivo comunicativo.
+
+      O conceito de texto, contudo, tem vindo a ser alargado ao longo do tempo, abrangendo não só textos escritos e
+      verbais, como também textos orais e visuais. O mais importante é que haja uma intenção comunicativa definida e que
+      apresente um sentido completo.
+    </p>
+  </section>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
