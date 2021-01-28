@@ -1,16 +1,52 @@
 section .paragrafo-1 {
   letter-spacing: 1px;
   line-height: 25px;
-  border: 1px solid red;
   margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 footer {
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+  height: auto;
+  margin-top: 756px;
   text-align: center;
-  border: 1px solid black;
-  background-color: #775a5a;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 2px;
+}
+
+.paragrafo {
+  width: 80%;
+  height: 100%;
+  margin-top: 3%;
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+.paragrafo-1 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.projetos-artigos {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.projetos-artigos-title {
+  margin-top: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
