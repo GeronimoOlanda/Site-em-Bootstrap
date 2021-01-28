@@ -10,6 +10,7 @@ section .paragrafo-1 {
 footer {
   text-align: center;
   border: 1px solid black;
+  background-color: #775a5a;
 }
 
 /*# sourceMappingURL=styles.css.map */
