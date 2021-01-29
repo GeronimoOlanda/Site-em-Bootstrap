@@ -7,6 +7,7 @@ $(document).ready(function(){
     $("#btn-2").click(function(){
         $("body").css("background-color","white");
        $(".color-white").css("color","black");
+       $(".color-white").css("font-weight", "bolder")
     })
     
 })
