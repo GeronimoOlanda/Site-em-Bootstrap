@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 section .paragrafo-1 {
   letter-spacing: 1px;
   line-height: 25px;
@@ -48,6 +53,18 @@ footer {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
+}
+
+#btn-1, #btn-2 {
+  border-style: none;
+  color: black;
+  border-radius: 50px;
+  margin-left: 10px;
+  transition: 0.2s ease all;
+}
+#btn-1:hover, #btn-2:hover {
+  background-color: #2c3e50;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
