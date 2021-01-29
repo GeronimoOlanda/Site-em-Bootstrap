@@ -1,9 +1,11 @@
 # Geronimo Olanda
-Desenvolvimento de um website como portfolio.
-
-Linguaguagens, Bibliotecas ou Frameworks Utilizados até o momento:
+Desenvolvimento de website para aprofundar meus conhecimentos em Front-End,utilizando as seguintes linguagens/Frameworks/Libs:
 
 * HTML5.
 * CSS3.
 * Bootstrap.
 * SASS.
+* JQuery
+
+#### Outros:
+* Google Fonts
