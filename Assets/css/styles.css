@@ -62,6 +62,8 @@ footer {
   color: black;
   border-radius: 50px;
   transition: 0.2s ease all;
+  overflow: hidden;
+  outline: none;
   margin-top: 5px;
 }
 
@@ -75,14 +77,12 @@ footer {
   background: transparent url(../img/moon.png) no-repeat center top;
   background-size: cover;
   margin-right: 20px;
-  outline: none;
   transition: 0.4s ease all;
 }
 #btn-1:hover {
   background-color: #9c9c9c;
   border: 1px solid #c4c1c1;
   transform: rotate(10deg);
-  overflow: hidden;
 }
 
 #btn-2 {
@@ -90,13 +90,11 @@ footer {
   height: 2em;
   background: transparent url(../img/sun.png) no-repeat center top;
   background-size: cover;
-  outline: none;
   transition: 0.4s ease all;
 }
 #btn-2:hover {
   background-color: #ffef08;
   transform: rotate(10deg);
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
