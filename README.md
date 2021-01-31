@@ -3,9 +3,8 @@ Desenvolvimento de website para aprofundar meus conhecimentos em Front-End,utili
 
 * HTML5.
 * CSS3.
-* Bootstrap.
 * SASS.
-* JQuery
-
-#### Outros:
+* Bootstrap.
+* JQuery.
+### Outros:
 * Google Fonts
